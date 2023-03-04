@@ -13,7 +13,7 @@
 <p>More goofy content goofy content goofy content goofy content goofy content </p>
 
 {% for obj in harvard_park_homicides %}
-{{ obj.first_name }} {{ obj.last_name }}<br>
+{{ obj.first_name }} {{ obj.last_name }} {{obj.age}} {{obj.death_year}}<br>
 {% endfor %}
 
 {% endblock content %}
