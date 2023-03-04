@@ -35,5 +35,3 @@ homicides.forEach((obj) => {
     .addTo(map)
     .bindTooltip(obj.first_name + ' ' + obj.last_name, { permanent: true }); // ... with a tooltip
 });
-// .bindTooltip(obj.first_name + ' ' + obj.last_name);  // ... with a tooltip
-//});
