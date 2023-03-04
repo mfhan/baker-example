@@ -11,4 +11,9 @@
 
 {% block content %}
 <p>More goofy content goofy content goofy content goofy content goofy content </p>
+
+{% for obj in harvard_park_homicides %}
+{{ obj.first_name }} {{ obj.last_name }}<br>
+{% endfor %}
+
 {% endblock content %}
